@@ -1,5 +1,6 @@
 package functions.infixfunctions
 
+// Reference: https://kotlinlang.org/docs/functions.html#infix-notation
 fun main() {
     // 1
     val result = 1 plus 2

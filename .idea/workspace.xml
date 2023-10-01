@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add Kotlin local functions examples">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/infixfunctions/InfixFunctions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/infixfunctions/InfixFunctions.md" afterDir="false" />
+    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add Kotlin infix functions examples&#10;&#10;Added minor refactoring.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/anonymousfunctions/AnonymousFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/anonymousfunctions/AnonymousFunctions.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/functions/LocalFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/functions/localfunctions/LocalFunctions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/functions/LocalFunctions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/functions/localfunctions/LocalFunctions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/functions/infixfunctions/InfixFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/functions/infixfunctions/InfixFunctions.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/fahim/IdeaProjects/grokking-kotlin"
+    "last_opened_file_path": "C:/Users/fahim/IdeaProjects/grokking-kotlin",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,7 +71,14 @@
       <recent name="C:\Users\fahim\IdeaProjects\grokking-kotlin\src\main\kotlin\functions\localfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.InfixFunctionsKt (1)">
+  <component name="RunManager" selected="Kotlin.AnonymousFunctionsKt">
+    <configuration name="AnonymousFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functions.anonymousfunctions.AnonymousFunctionsKt" />
+      <module name="grokking-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InfixFunctionsKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functions.infixfunctions.InfixFunctionsKt" />
       <module name="grokking-kotlin.main" />
@@ -95,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AnonymousFunctionsKt" />
         <item itemvalue="Kotlin.InfixFunctionsKt (1)" />
         <item itemvalue="Kotlin.InfixFunctionsKt" />
         <item itemvalue="Kotlin.LocalFunctionsKt" />
@@ -126,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696150704605</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Kotlin infix functions examples&#10;&#10;Added minor refactoring.">
+      <option name="closed" value="true" />
+      <created>1696154289675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696154289675</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +158,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Kotlin local functions examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Kotlin local functions examples" />
+    <MESSAGE value="Add Kotlin infix functions examples&#10;&#10;Added minor refactoring." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Kotlin infix functions examples&#10;&#10;Added minor refactoring." />
   </component>
 </project>
