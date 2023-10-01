@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Refactor readme">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/inlinefunctions/InlineFunctions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/inlinefunctions/InlineFunctions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add local and non-local returns examples" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +67,7 @@
       <recent name="C:\Users\fahim\IdeaProjects\grokking-kotlin\src\main\kotlin\functions\localfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.InlineFunctionsKt">
+  <component name="RunManager" selected="Kotlin.LocalAndNonLocalReturnsKt">
     <configuration name="AnonymousFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functions.anonymousfunctions.AnonymousFunctionsKt" />
       <module name="grokking-kotlin.main" />
@@ -100,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functions.localfunctions.LocalFunctionsKt" />
+    <configuration name="LocalAndNonLocalReturnsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functions.localnonlocalreturns.LocalAndNonLocalReturnsKt" />
       <module name="grokking-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LocalAndNonLocalReturnsKt" />
         <item itemvalue="Kotlin.InlineFunctionsKt" />
         <item itemvalue="Kotlin.AnonymousFunctionsKt" />
         <item itemvalue="Kotlin.InfixFunctionsKt (1)" />
         <item itemvalue="Kotlin.InfixFunctionsKt" />
-        <item itemvalue="Kotlin.LocalFunctionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +162,31 @@
       <option name="project" value="LOCAL" />
       <updated>1696157838881</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Kotlin inline functions examples">
+      <option name="closed" value="true" />
+      <created>1696161710007</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696161710007</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add local and non-local returns examples">
+      <option name="closed" value="true" />
+      <created>1696170789742</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696170789742</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add local and non-local returns examples">
+      <option name="closed" value="true" />
+      <created>1696170934913</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696170934913</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +205,8 @@
     <MESSAGE value="Add Kotlin infix functions examples&#10;&#10;Added minor refactoring." />
     <MESSAGE value="Add Kotlin anonymous functions examples&#10;&#10;Added minor refactoring." />
     <MESSAGE value="Refactor readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor readme" />
+    <MESSAGE value="Add Kotlin inline functions examples" />
+    <MESSAGE value="Add local and non-local returns examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add local and non-local returns examples" />
   </component>
 </project>
