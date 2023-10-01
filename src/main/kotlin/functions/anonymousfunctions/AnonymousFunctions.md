@@ -11,6 +11,7 @@ fun(a: Int, b: Int): Int {
 ```
 
 **Differences with lambda expressions**
+
 The lambda expression syntax is missing one thing – the ability to specify the function's return type. In most
 cases, this is unnecessary because the return type can be inferred automatically. However, if you do need to specify it
 explicitly, you can use an anonymous function.
