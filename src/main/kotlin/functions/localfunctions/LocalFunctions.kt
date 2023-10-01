@@ -1,7 +1,6 @@
 package functions.localfunctions
 
 // Reference: https://kotlinlang.org/docs/functions.html#local-functions
-
 fun outerFunction(outerFunctionParam: String){
     val localVariable = "I'm a local variable from outer function. I'm also known as Closure."
 
