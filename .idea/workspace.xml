@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add Kotlin local functions examples">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/infixfunctions/InfixFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/infixfunctions/InfixFunctions.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/functions/LocalFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/functions/localfunctions/LocalFunctions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/functions/LocalFunctions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/functions/localfunctions/LocalFunctions.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2W9Odgpx1XpH26OYtcv0zPfqDSS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,9 +66,28 @@
     "last_opened_file_path": "C:/Users/fahim/IdeaProjects/grokking-kotlin"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fahim\IdeaProjects\grokking-kotlin\src\main\kotlin\functions\localfunctions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.InfixFunctionsKt (1)">
+    <configuration name="InfixFunctionsKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functions.infixfunctions.InfixFunctionsKt" />
+      <module name="grokking-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfixFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InfixFunctionsKt" />
+      <module name="grokking-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LocalFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functions.LocalFunctionsKt" />
+      <option name="MAIN_CLASS_NAME" value="functions.localfunctions.LocalFunctionsKt" />
       <module name="grokking-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,6 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.InfixFunctionsKt (1)" />
+        <item itemvalue="Kotlin.InfixFunctionsKt" />
         <item itemvalue="Kotlin.LocalFunctionsKt" />
       </list>
     </recent_temporary>
@@ -91,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696150623656</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Kotlin local functions examples">
+      <option name="closed" value="true" />
+      <created>1696150704605</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696150704605</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
