@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add private constructor example">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/SealedClass.kt" afterDir="false" />
+    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add sealed class examples">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/SealedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/SealedClass.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696234065422</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add sealed class examples">
+      <option name="closed" value="true" />
+      <created>1696236013159</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696236013160</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +317,18 @@
     <MESSAGE value="Add nested class examples" />
     <MESSAGE value="Add companion objects examples" />
     <MESSAGE value="Add private constructor example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add private constructor example" />
+    <MESSAGE value="Add sealed class examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add sealed class examples" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>dummy://kotlinDecompiled/SealedClass.decompiled.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

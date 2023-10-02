@@ -24,14 +24,31 @@ sealed class Response {
 fun main() {
 //    var responseObject = Response()   // Can't instantiate sealed type
     var response: Response
-    (0..2).forEach { code ->
+    (0..3).forEach { code ->
         response = when (code) {
             0 -> Response.Loading
             1 -> Response.Success("Success!")
             2 -> Response.Error(400, "Bad request")
-            else -> throw RuntimeException("Invalid type")
+            else -> Response.Error(code, "Unknown request") // Subclasses of sealed types can have multiple instances
         }
         println(response.toString())
     }
 
+    var responseEnum: ResponseEnum
+
+    println("---- Enums ----")
+    (0..3).forEach { code ->
+        responseEnum = when (code) {
+            0 -> ResponseEnum.Loading
+            1 -> ResponseEnum.Success
+            2 -> ResponseEnum.Error
+            else -> ResponseEnum.Error  // Enum constants can only be single instance
+        }
+        println("$responseEnum, code = ${responseEnum.code}")
+    }
+
+}
+
+enum class ResponseEnum(val code: Int) {
+    Success(200), Loading(0), Error(500)
 }
