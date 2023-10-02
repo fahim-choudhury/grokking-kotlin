@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add sealed class examples">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/SealedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/SealedClass.kt" afterDir="false" />
+    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add differences between sealed classes and enums">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/TypeAliases.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <recent name="C:\Users\fahim\IdeaProjects\grokking-kotlin\src\main\kotlin\functions\localfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SealedClassKt">
+  <component name="RunManager" selected="Kotlin.TypeAliasesKt">
     <configuration name="CompanionObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classes.CompanionObjects" />
       <module name="grokking-kotlin.main" />
@@ -95,13 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LateInitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.LateInitKt" />
-      <module name="grokking-kotlin.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NestedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classes.NestedClassKt" />
       <module name="grokking-kotlin.main" />
@@ -116,13 +108,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypeAliasesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.TypeAliasesKt" />
+      <module name="grokking-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TypeAliasesKt" />
         <item itemvalue="Kotlin.SealedClassKt" />
         <item itemvalue="Kotlin.CompanionObjectsKt" />
         <item itemvalue="Application.CompanionObjects" />
         <item itemvalue="Kotlin.NestedClassKt" />
-        <item itemvalue="Kotlin.LateInitKt" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696236013160</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add differences between sealed classes and enums">
+      <option name="closed" value="true" />
+      <created>1696236977798</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1696236977798</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,7 +325,8 @@
     <MESSAGE value="Add companion objects examples" />
     <MESSAGE value="Add private constructor example" />
     <MESSAGE value="Add sealed class examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add sealed class examples" />
+    <MESSAGE value="Add differences between sealed classes and enums" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add differences between sealed classes and enums" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
