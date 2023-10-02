@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add backing fields and properties examples">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/LateInit.kt" afterDir="false" />
+    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add lateinit property examples">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/NestedClass.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       <recent name="C:\Users\fahim\IdeaProjects\grokking-kotlin\src\main\kotlin\functions\localfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LateInitKt">
+  <component name="RunManager" selected="Kotlin.NestedClassKt">
     <configuration name="ClosuresKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.ClosuresKt" />
       <module name="grokking-kotlin.main" />
@@ -92,13 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaWithReceiversKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functions.lambdawithreceivers.LambdaWithReceiversKt" />
-      <module name="grokking-kotlin.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LateInitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classes.LateInitKt" />
       <module name="grokking-kotlin.main" />
@@ -106,13 +99,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NestedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.NestedClassKt" />
+      <module name="grokking-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.NestedClassKt" />
         <item itemvalue="Kotlin.LateInitKt" />
         <item itemvalue="Kotlin.FieldsKt" />
         <item itemvalue="Kotlin.ClosuresKt" />
         <item itemvalue="Kotlin.GettingFunctionalKt" />
-        <item itemvalue="Kotlin.LambdaWithReceiversKt" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696228916014</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add lateinit property examples">
+      <option name="closed" value="true" />
+      <created>1696229786897</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696229786897</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +271,7 @@
     <MESSAGE value="Add summary of functions" />
     <MESSAGE value="Add functional programming examples&#10;&#10;- Higher-order functions&#10;- Lambdas&#10;- Closures" />
     <MESSAGE value="Add backing fields and properties examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add backing fields and properties examples" />
+    <MESSAGE value="Add lateinit property examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add lateinit property examples" />
   </component>
 </project>
