@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add summary of functions">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional/Closures.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional/GettingFunctional.kt" afterDir="false" />
+    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add functional programming examples&#10;&#10;- Higher-order functions&#10;- Lambdas&#10;- Closures">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Fields.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,9 +70,16 @@
       <recent name="C:\Users\fahim\IdeaProjects\grokking-kotlin\src\main\kotlin\functions\localfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ClosuresKt">
+  <component name="RunManager" selected="Kotlin.FieldsKt">
     <configuration name="ClosuresKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.ClosuresKt" />
+      <module name="grokking-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FieldsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.FieldsKt" />
       <module name="grokking-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,13 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalAndNonLocalReturnsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functions.localnonlocalreturns.LocalAndNonLocalReturnsKt" />
-      <module name="grokking-kotlin.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OperatorOverloadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functions.operatoroverloading.OperatorOverloadingKt" />
       <module name="grokking-kotlin.main" />
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FieldsKt" />
         <item itemvalue="Kotlin.ClosuresKt" />
         <item itemvalue="Kotlin.GettingFunctionalKt" />
         <item itemvalue="Kotlin.LambdaWithReceiversKt" />
         <item itemvalue="Kotlin.OperatorOverloadingKt" />
-        <item itemvalue="Kotlin.LocalAndNonLocalReturnsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696180663182</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add functional programming examples&#10;&#10;- Higher-order functions&#10;- Lambdas&#10;- Closures">
+      <option name="closed" value="true" />
+      <created>1696226153721</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696226153721</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +253,7 @@
     <MESSAGE value="Add operator overloading examples" />
     <MESSAGE value="Add lambda with receivers examples" />
     <MESSAGE value="Add summary of functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add summary of functions" />
+    <MESSAGE value="Add functional programming examples&#10;&#10;- Higher-order functions&#10;- Lambdas&#10;- Closures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add functional programming examples&#10;&#10;- Higher-order functions&#10;- Lambdas&#10;- Closures" />
   </component>
 </project>
