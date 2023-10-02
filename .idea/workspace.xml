@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add lambda with receivers examples">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/Functions.md" afterDir="false" />
+    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add summary of functions">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional/Closures.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional/GettingFunctional.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,32 +55,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/fahim/IdeaProjects/grokking-kotlin",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fahim/IdeaProjects/grokking-kotlin&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fahim\IdeaProjects\grokking-kotlin\src\main\kotlin\functions\localfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LambdaWithReceiversKt">
-    <configuration name="AnonymousFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functions.anonymousfunctions.AnonymousFunctionsKt" />
+  <component name="RunManager" selected="Kotlin.ClosuresKt">
+    <configuration name="ClosuresKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.ClosuresKt" />
       <module name="grokking-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InlineFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functions.inlinefunctions.InlineFunctionsKt" />
+    <configuration name="GettingFunctionalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.GettingFunctionalKt" />
       <module name="grokking-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ClosuresKt" />
+        <item itemvalue="Kotlin.GettingFunctionalKt" />
         <item itemvalue="Kotlin.LambdaWithReceiversKt" />
         <item itemvalue="Kotlin.OperatorOverloadingKt" />
         <item itemvalue="Kotlin.LocalAndNonLocalReturnsKt" />
-        <item itemvalue="Kotlin.InlineFunctionsKt" />
-        <item itemvalue="Kotlin.AnonymousFunctionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696177059015</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add summary of functions">
+      <option name="closed" value="true" />
+      <created>1696180663182</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696180663182</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +245,7 @@
     <MESSAGE value="Add local and non-local returns examples" />
     <MESSAGE value="Add operator overloading examples" />
     <MESSAGE value="Add lambda with receivers examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add lambda with receivers examples" />
+    <MESSAGE value="Add summary of functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add summary of functions" />
   </component>
 </project>
