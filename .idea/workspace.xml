@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add nested class examples">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/CompanionObjects.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add companion objects examples" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,9 +69,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.CompanionObjectsKt">
-    <configuration name="ClosuresKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.ClosuresKt" />
+    <configuration name="CompanionObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.CompanionObjects" />
       <module name="grokking-kotlin.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,10 +113,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.CompanionObjectsKt" />
+        <item itemvalue="Application.CompanionObjects" />
         <item itemvalue="Kotlin.NestedClassKt" />
         <item itemvalue="Kotlin.LateInitKt" />
         <item itemvalue="Kotlin.FieldsKt" />
-        <item itemvalue="Kotlin.ClosuresKt" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696232166346</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add companion objects examples">
+      <option name="closed" value="true" />
+      <created>1696233515370</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696233515370</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,6 +293,7 @@
     <MESSAGE value="Add backing fields and properties examples" />
     <MESSAGE value="Add lateinit property examples" />
     <MESSAGE value="Add nested class examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add nested class examples" />
+    <MESSAGE value="Add companion objects examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add companion objects examples" />
   </component>
 </project>

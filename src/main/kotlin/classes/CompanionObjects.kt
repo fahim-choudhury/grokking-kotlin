@@ -1,6 +1,6 @@
 package classes
 
-class Log {
+class Log private constructor(){
     fun print() {
         println("Log: Inside member function")
     }
@@ -26,8 +26,8 @@ object Logger {
 
 fun main() {
     // Using member function
-    val log = Log()
-    log.print()
+//    val log = Log()   // Can't use if Log has private constructor
+//    log.print()
 
     // Using factory object
     Log.Factory.print()
