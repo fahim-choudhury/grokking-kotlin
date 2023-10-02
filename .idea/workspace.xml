@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add companion objects examples" />
+    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add private constructor example">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/SealedClass.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,13 +32,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://kotlinDecompiled/SealedClass.decompiled.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -68,7 +73,7 @@
       <recent name="C:\Users\fahim\IdeaProjects\grokking-kotlin\src\main\kotlin\functions\localfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CompanionObjectsKt">
+  <component name="RunManager" selected="Kotlin.SealedClassKt">
     <configuration name="CompanionObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classes.CompanionObjects" />
       <module name="grokking-kotlin.main" />
@@ -89,13 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.FieldsKt" />
-      <module name="grokking-kotlin.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LateInitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classes.LateInitKt" />
       <module name="grokking-kotlin.main" />
@@ -110,13 +108,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SealedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.SealedClassKt" />
+      <module name="grokking-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SealedClassKt" />
         <item itemvalue="Kotlin.CompanionObjectsKt" />
         <item itemvalue="Application.CompanionObjects" />
         <item itemvalue="Kotlin.NestedClassKt" />
         <item itemvalue="Kotlin.LateInitKt" />
-        <item itemvalue="Kotlin.FieldsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696233515370</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add private constructor example">
+      <option name="closed" value="true" />
+      <created>1696234065422</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696234065422</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,6 +307,7 @@
     <MESSAGE value="Add lateinit property examples" />
     <MESSAGE value="Add nested class examples" />
     <MESSAGE value="Add companion objects examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add companion objects examples" />
+    <MESSAGE value="Add private constructor example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add private constructor example" />
   </component>
 </project>
