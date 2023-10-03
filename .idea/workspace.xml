@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add member, property and local delegation examples" />
+    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add member, property and local delegation examples">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/deepcopy/DeepCopy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/deepcopy/data/Address.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/deepcopy/data/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/shallowcopy/ShallowCopy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/shallowcopy/data/Address.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/shallowcopy/data/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,19 +70,28 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/fahim/IdeaProjects/grokking-kotlin",
+    "last_opened_file_path": "C:/Users/fahim/IdeaProjects/grokking-kotlin/src/main/kotlin/deepcopy",
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fahim\IdeaProjects\grokking-kotlin\src\main\kotlin\deepcopy" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fahim\IdeaProjects\grokking-kotlin\src\main\kotlin\functions\localfunctions" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="shallowcopy.data" />
+      <recent name="shallowcopy" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LocalDelegatesKt">
-    <configuration name="CompanionObjectsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.CompanionObjectsKt" />
+  <component name="RunManager" selected="Kotlin.ShallowCopyKt">
+    <configuration name="DeepCopyKt" type="JetRunConfigurationType" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deepcopy.DeepCopyKt" />
       <module name="grokking-kotlin.main" />
+      <shortenClasspath name="NONE" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,9 +110,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SealedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.SealedClassKt" />
+    <configuration name="ShallowCopyKt" type="JetRunConfigurationType" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shallowcopy.ShallowCopyKt" />
       <module name="grokking-kotlin.main" />
+      <shortenClasspath name="NONE" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,13 +126,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Kotlin.DeepCopyKt" />
+      <item itemvalue="Kotlin.ShallowCopyKt" />
+      <item itemvalue="Kotlin.LocalDelegatesKt" />
+      <item itemvalue="Kotlin.PropertyDelegationKt" />
+      <item itemvalue="Kotlin.TypeAliasesKt" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.LocalDelegatesKt" />
         <item itemvalue="Kotlin.PropertyDelegationKt" />
         <item itemvalue="Kotlin.TypeAliasesKt" />
-        <item itemvalue="Kotlin.SealedClassKt" />
-        <item itemvalue="Kotlin.CompanionObjectsKt" />
       </list>
     </recent_temporary>
   </component>
