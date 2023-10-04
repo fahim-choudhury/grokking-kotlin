@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add shallow copy and deep copy examples">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/passbyvalue/PassByValue.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add examples of pass by value">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopefunctions/Also.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopefunctions/Apply.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopefunctions/Let.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopefunctions/Run.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopefunctions/With.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopefunctions/data/Person.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Data Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -58,30 +63,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fahim/IdeaProjects/grokking-kotlin/src/main/kotlin/deepcopy&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/fahim/IdeaProjects/grokking-kotlin/src/main/kotlin/scopefunctions",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fahim\IdeaProjects\grokking-kotlin\src\main\kotlin\scopefunctions" />
       <recent name="C:\Users\fahim\IdeaProjects\grokking-kotlin\src\main\kotlin\deepcopy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fahim\IdeaProjects\grokking-kotlin\src\main\kotlin\functions\localfunctions" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="scopefunctions.data" />
       <recent name="shallowcopy.data" />
       <recent name="shallowcopy" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PassByValueKt">
+  <component name="RunManager" selected="Kotlin.AlsoKt">
+    <configuration name="AlsoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scopefunctions.AlsoKt" />
+      <module name="grokking-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scopefunctions.ApplyKt" />
+      <module name="grokking-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeepCopyKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="deepcopy.DeepCopyKt" />
       <module name="grokking-kotlin.main" />
@@ -91,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalDelegatesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="delegation.LocalDelegatesKt" />
+    <configuration name="LetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scopefunctions.LetKt" />
       <module name="grokking-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertyDelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="delegation.PropertyDelegationKt" />
+    <configuration name="RunKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scopefunctions.RunKt" />
       <module name="grokking-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeAliasesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.TypeAliasesKt" />
+    <configuration name="WithKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scopefunctions.WithKt" />
       <module name="grokking-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,15 +155,19 @@
       <item itemvalue="Kotlin.DeepCopyKt" />
       <item itemvalue="Kotlin.ShallowCopyKt" />
       <item itemvalue="Kotlin.PassByValueKt" />
-      <item itemvalue="Kotlin.LocalDelegatesKt" />
-      <item itemvalue="Kotlin.PropertyDelegationKt" />
-      <item itemvalue="Kotlin.TypeAliasesKt" />
+      <item itemvalue="Kotlin.AlsoKt" />
+      <item itemvalue="Kotlin.ApplyKt" />
+      <item itemvalue="Kotlin.LetKt" />
+      <item itemvalue="Kotlin.RunKt" />
+      <item itemvalue="Kotlin.WithKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.LocalDelegatesKt" />
-        <item itemvalue="Kotlin.PropertyDelegationKt" />
-        <item itemvalue="Kotlin.TypeAliasesKt" />
+        <item itemvalue="Kotlin.AlsoKt" />
+        <item itemvalue="Kotlin.ApplyKt" />
+        <item itemvalue="Kotlin.WithKt" />
+        <item itemvalue="Kotlin.RunKt" />
+        <item itemvalue="Kotlin.LetKt" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +396,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696365245125</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add examples of pass by value">
+      <option name="closed" value="true" />
+      <created>1696401847021</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1696401847021</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,7 +439,8 @@
     <MESSAGE value="Add type alias examples" />
     <MESSAGE value="Add member, property and local delegation examples" />
     <MESSAGE value="Add shallow copy and deep copy examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add shallow copy and deep copy examples" />
+    <MESSAGE value="Add examples of pass by value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add examples of pass by value" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
