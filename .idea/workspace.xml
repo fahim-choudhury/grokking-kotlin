@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add examples of pass by value">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopefunctions/Also.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopefunctions/Apply.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopefunctions/Let.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopefunctions/Run.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopefunctions/With.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopefunctions/data/Person.kt" afterDir="false" />
+    <list default="true" id="838e1cc1-2d39-4760-aa92-e917fe9f0ee4" name="Changes" comment="Add examples of scope functions">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/flatmap/Flatmap.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +83,7 @@
       <recent name="shallowcopy" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AlsoKt">
+  <component name="RunManager" selected="Kotlin.FlatmapKt">
     <configuration name="AlsoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="scopefunctions.AlsoKt" />
       <module name="grokking-kotlin.main" />
@@ -112,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scopefunctions.LetKt" />
+    <configuration name="FlatmapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flatmap.FlatmapKt" />
       <module name="grokking-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,17 +152,17 @@
       <item itemvalue="Kotlin.PassByValueKt" />
       <item itemvalue="Kotlin.AlsoKt" />
       <item itemvalue="Kotlin.ApplyKt" />
-      <item itemvalue="Kotlin.LetKt" />
+      <item itemvalue="Kotlin.FlatmapKt" />
       <item itemvalue="Kotlin.RunKt" />
       <item itemvalue="Kotlin.WithKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FlatmapKt" />
         <item itemvalue="Kotlin.AlsoKt" />
         <item itemvalue="Kotlin.ApplyKt" />
         <item itemvalue="Kotlin.WithKt" />
         <item itemvalue="Kotlin.RunKt" />
-        <item itemvalue="Kotlin.LetKt" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696401847021</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Add examples of scope functions">
+      <option name="closed" value="true" />
+      <created>1696412205448</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1696412205448</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,7 +443,8 @@
     <MESSAGE value="Add member, property and local delegation examples" />
     <MESSAGE value="Add shallow copy and deep copy examples" />
     <MESSAGE value="Add examples of pass by value" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add examples of pass by value" />
+    <MESSAGE value="Add examples of scope functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add examples of scope functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
